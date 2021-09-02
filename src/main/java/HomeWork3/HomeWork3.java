@@ -47,7 +47,7 @@ public class HomeWork3 {
                     break;
                 }
             }
-            System.out.println("0 or 1");
+            System.out.println("Хотите попробовать снова? 1 - да, 0 - нет");
             restartQuestion = scanner.nextInt();
         } while (restartQuestion == 1);
         //endregion
